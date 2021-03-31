@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:background="@color/arkaplan" android:layout_width="match_parent" android:layout_height="match_parent">
+    <Button android:id="@+id/btn_ge" android:background="@drawable/geri" android:layout_width="50dp" android:layout_height="50dp" android:layout_marginLeft="18dp" android:layout_marginTop="11dp" android:layout_alignParentLeft="true" android:layout_alignParentTop="true"/>
+    <Button android:textSize="24sp" android:id="@+id/btn_gelen" android:layout_width="match_parent" android:layout_height="70dp" android:layout_marginTop="92dp" android:text="" android:layout_below="@+id/btn_ge" android:layout_alignParentLeft="true"/>
+    <Button android:id="@+id/btn_1" android:background="@drawable/btn_sel" android:layout_width="140dp" android:layout_height="100dp" android:layout_marginLeft="16dp" android:layout_marginBottom="25dp" android:text="" android:layout_above="@+id/btn_3" android:layout_alignLeft="@+id/btn_ge"/>
+    <Button android:id="@+id/btn_2" android:background="@drawable/btn_sel" android:layout_width="140dp" android:layout_height="100dp" android:text="" android:layout_alignLeft="@+id/btn_4" android:layout_alignTop="@+id/btn_1"/>
+    <Button android:id="@+id/btn_3" android:background="@drawable/btn_sel" android:layout_width="140dp" android:layout_height="100dp" android:layout_marginBottom="25dp" android:text="" android:layout_alignLeft="@+id/btn_1" android:layout_alignParentBottom="true"/>
+    <Button android:id="@+id/btn_4" android:background="@drawable/btn_sel" android:layout_width="140dp" android:layout_height="100dp" android:layout_marginLeft="16dp" android:text="" android:layout_toRightOf="@+id/btn_3" android:layout_alignTop="@+id/btn_3"/>
+    <ListView android:id="@android:id/list" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="150dp" android:layout_alignParentLeft="true" android:layout_alignParentTop="true"/>
+</RelativeLayout>

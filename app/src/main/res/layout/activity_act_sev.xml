@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:background="@color/arkaplan" android:layout_width="match_parent" android:layout_height="match_parent">
+    <Button android:textSize="18sp" android:id="@+id/special" android:background="@drawable/bat" android:layout_width="150dp" android:layout_height="60dp" android:layout_marginBottom="21dp" android:text="SPECIAL" android:layout_alignLeft="@+id/btn_sev4" android:layout_alignParentBottom="true"/>
+    <Button android:textSize="18sp" android:id="@+id/btn_sev4" android:background="@drawable/bat" android:layout_width="150dp" android:layout_height="60dp" android:layout_marginTop="31dp" android:text="seviye 4" android:layout_below="@+id/btn_sev3" android:layout_alignLeft="@+id/btn_sev3"/>
+    <Button android:textSize="18sp" android:id="@+id/btn_sev1" android:background="@drawable/bat" android:layout_width="150dp" android:layout_height="60dp" android:layout_marginTop="16dp" android:text="seviye 1" android:layout_below="@+id/adView5" android:layout_alignLeft="@+id/btn_sev2"/>
+    <Button android:textSize="18sp" android:id="@+id/btn_sev2" android:background="@drawable/bat" android:layout_width="150dp" android:layout_height="60dp" android:layout_marginTop="32dp" android:text="seviye 2" android:layout_below="@+id/btn_sev1" android:layout_centerHorizontal="true"/>
+    <Button android:textSize="18sp" android:id="@+id/btn_sev3" android:background="@drawable/bat" android:layout_width="150dp" android:layout_height="60dp" android:layout_marginTop="90dp" android:text="seviye 3" android:layout_alignLeft="@+id/btn_sev2" android:layout_alignTop="@+id/btn_sev2"/>
+</RelativeLayout>

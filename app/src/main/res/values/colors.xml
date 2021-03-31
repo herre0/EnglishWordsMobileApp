@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="btn_info">#1e90ff</color>
+    <color name="btn_kır">#ff0000</color>
+    <color name="btn_renk">#ffffff</color>
+    <color name="btn_ye">#0000ee</color>
+    <color name="button_material_dark">#ff5a595b</color>
+    <color name="button_material_light">#ffd6d7d7</color>
+    <color name="arkaplan">#228b22</color>
+</resources>

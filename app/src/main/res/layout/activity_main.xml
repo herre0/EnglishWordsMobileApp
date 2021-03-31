@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:background="@color/arkaplan" android:layout_width="match_parent" android:layout_height="match_parent">
+    <Button android:textSize="18sp" android:id="@+id/btn_ozel" android:background="@drawable/bat" android:layout_width="150dp" android:layout_height="60dp" android:layout_marginTop="87dp" android:text="özelleştir" android:layout_alignLeft="@+id/btn_hakkında" android:layout_alignTop="@+id/btn_hakkında"/>
+    <Button android:textSize="18sp" android:id="@+id/btn_hakkında" android:background="@drawable/bat" android:layout_width="150dp" android:layout_height="60dp" android:text="hakkında" android:layout_alignLeft="@+id/btn_basla" android:layout_centerVertical="true"/>
+    <Button android:textSize="18sp" android:id="@+id/btn_basla" android:background="@drawable/bat" android:layout_width="150dp" android:layout_height="60dp" android:layout_marginLeft="103dp" android:layout_marginBottom="24dp" android:text="basla" android:layout_above="@+id/btn_ozel" android:layout_alignParentLeft="true"/>
+</RelativeLayout>
